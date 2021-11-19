@@ -1,0 +1,22 @@
+{
+  "name": "bot-b3",
+  "version": "1.0.0",
+  "description": "Bot de alerta de variação de ação da bolsa.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Willian Ricardo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "nodemailer": "^6.7.1",
+    "puppeteer": "^11.0.0",
+    "round-to": "^6.0.0",
+    "twilio": "^3.71.2"
+  }
+}
